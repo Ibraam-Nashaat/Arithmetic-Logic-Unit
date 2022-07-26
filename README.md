@@ -3,6 +3,8 @@
 ## Introduction :
 - ALU is capable of adding, subtracting, multiplying and calculating the remainder of two signed numbers and displays the result of the operation performed along
 with some additional flags regarding the operation and the result on seven segments.
+
+**Note:** All the files in ALU folder was made using *Logisim* program so you need to download it to be able to open this files.
 ## Block Diagram :
 <img src="Images/BlockDiagram.png">
 
@@ -18,3 +20,23 @@ otherwise.
 3. Divide by Zero Flag :
       - The divide by zero flag indicates if we divide by zero. The flag is set to 1 if B operand equal
 zero in division operation and 0 otherwise.
+## Operations:
+### 1. Adding and Subtracting :
+- Adding or Subracting A and B where each of them is 3-bits and the mode of operation is determined using the selector bit where 0 represents addition and 1 represents subtraction.
+
+<img src="Images/AddandSub.png" >
+
+### 2. Multiplication :
+
+<img src="Images/multiplier.png">
+
+### 3. Remainder :
+
+<img src="Images/Remainder.png">
+
+## Full Circuit :
+
+<img src="Images/FullCircuit.png">
+
+
+

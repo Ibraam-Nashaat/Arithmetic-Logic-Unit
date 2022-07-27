@@ -4,7 +4,7 @@
 - ALU is capable of adding, subtracting, multiplying and calculating the remainder of two signed numbers and displays the result of the operation performed along
 with some additional flags regarding the operation and the result on seven segments.
 
-**Note:** All the files in ALU folder was made using *Logisim* program so you need to download it to be able to open this files.
+**Note:** All the files in ALU folder was made using *Logisim* program so you need to download it to be able to open these files.
 ## Block Diagram :
 <img src="Images/BlockDiagram.png">
 
@@ -35,6 +35,7 @@ zero in division operation and 0 otherwise.
 <img src="Images/Remainder.png">
 
 ## Full Circuit :
+- This is the integrated circuit which performs all the operations.
 
 <img src="Images/FullCircuit.png">
 
